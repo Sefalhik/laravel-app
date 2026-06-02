@@ -20,7 +20,7 @@
                     <h2 class="text-lg font-semibold text-gray-800">{{ $post->title }}</h2>
                     <p class="text-sm text-gray-500 mt-1">
                         Par <span class="font-medium">{{ $post->user->name }}</span>
-                        <x-badge color="blue">{{ $post->user->role }}</x-badge>
+                        <x-user-role-badge :user="$post->user" />
                     </p>
                     <p class="text-gray-600 mt-3 text-sm">{{ Str::limit($post->body, 120) }}</p>
                 </div>

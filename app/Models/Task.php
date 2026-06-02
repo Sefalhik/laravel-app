@@ -2,18 +2,13 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
+#[Fillable(['title', 'description', 'status', 'due_date'])]
 class Task extends Model
 {
-    protected $fillable = [
-        'title',
-        'description',
-        'status',
-        'due_date',
-    ];
-
     protected $casts = [
         'due_date' => 'date',
     ];

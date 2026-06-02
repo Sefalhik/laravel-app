@@ -12,11 +12,13 @@ class AdminSeeder extends Seeder
      */
     public function run(): void
     {
-        User::create([
-            'name'     => 'Admin',
-            'email'    => 'admin@example.com',
-            'password' => 'password', // ⚠️ L13 : cast `hashed` sur User → NE PAS utiliser Hash::make() ici
-            'role'     => 'admin',
-        ]);
+        $user = User::firstOrCreate(
+            ['email' => 'admin@example.com'],
+            ['name' => 'Admin', 'password' => 'password']
+        );
+
+        if (! $user->hasRole('admin')) {
+            $user->assignRole('admin');
+        }
     }
 }

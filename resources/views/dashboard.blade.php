@@ -7,7 +7,7 @@
     <x-card>
         <p class="text-gray-700 mb-4">
             Bienvenue <span class="font-semibold">{{ auth()->user()->name }}</span>
-            <x-badge color="blue">{{ auth()->user()->role }}</x-badge>
+            <x-user-role-badge />
         </p>
 
         <a href="{{ route('posts.index') }}" class="text-indigo-600 hover:underline text-sm">
