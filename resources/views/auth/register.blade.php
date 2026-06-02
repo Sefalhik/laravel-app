@@ -1,12 +1,12 @@
-<x-guest-layout title="Inscription">
+<x-guest-layout :title="__('Register')">
 
-    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Inscription</h2>
+    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">{{ __('Register') }}</h2>
 
     <form method="POST" action="{{ route('register') }}">
         @csrf
 
         <div class="mb-4">
-            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Nom</label>
+            <label for="name" class="block text-sm font-medium text-gray-700 mb-1">{{ __('Name') }}</label>
             <input
                 type="text"
                 id="name"
@@ -22,7 +22,7 @@
         </div>
 
         <div class="mb-4">
-            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Adresse e-mail</label>
+            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">{{ __('Email address') }}</label>
             <input
                 type="email"
                 id="email"
@@ -37,7 +37,7 @@
         </div>
 
         <div class="mb-4">
-            <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Mot de passe</label>
+            <label for="password" class="block text-sm font-medium text-gray-700 mb-1">{{ __('Password') }}</label>
             <input
                 type="password"
                 id="password"
@@ -51,7 +51,7 @@
         </div>
 
         <div class="mb-6">
-            <label for="password_confirmation" class="block text-sm font-medium text-gray-700 mb-1">Confirmer le mot de passe</label>
+            <label for="password_confirmation" class="block text-sm font-medium text-gray-700 mb-1">{{ __('Confirm password') }}</label>
             <input
                 type="password"
                 id="password_confirmation"
@@ -62,7 +62,7 @@
         </div>
 
         <x-button type="submit" variant="primary" class="w-full justify-center">
-            S'inscrire
+            {{ __('Sign up') }}
         </x-button>
 
     </form>

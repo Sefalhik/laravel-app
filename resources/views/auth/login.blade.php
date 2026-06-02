@@ -1,12 +1,12 @@
-<x-guest-layout title="Connexion">
+<x-guest-layout :title="__('Login')">
 
-    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Connexion</h2>
+    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">{{ __('Login') }}</h2>
 
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
         <div class="mb-4">
-            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Adresse e-mail</label>
+            <label for="email" class="block text-sm font-medium text-gray-700 mb-1">{{ __('Email address') }}</label>
             <input
                 type="email"
                 id="email"
@@ -22,7 +22,7 @@
         </div>
 
         <div class="mb-6">
-            <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Mot de passe</label>
+            <label for="password" class="block text-sm font-medium text-gray-700 mb-1">{{ __('Password') }}</label>
             <input
                 type="password"
                 id="password"
@@ -33,7 +33,7 @@
         </div>
 
         <x-button type="submit" variant="primary" class="w-full justify-center">
-            Se connecter
+            {{ __('Sign in') }}
         </x-button>
 
     </form>

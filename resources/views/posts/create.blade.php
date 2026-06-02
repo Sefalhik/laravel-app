@@ -1,7 +1,7 @@
-<x-app-layout title="Nouvel article">
+<x-app-layout :title="__('New article')">
 
     <x-slot:header>
-        <h1 class="text-xl font-semibold text-gray-800">Nouvel article</h1>
+        <h1 class="text-xl font-semibold text-gray-800">{{ __('New article') }}</h1>
     </x-slot:header>
 
     <x-card>
@@ -9,7 +9,7 @@
             @csrf
 
             <div class="mb-4">
-                <label for="title" class="block text-sm font-medium text-gray-700 mb-1">Titre</label>
+                <label for="title" class="block text-sm font-medium text-gray-700 mb-1">{{ __('Title') }}</label>
                 <input
                     type="text"
                     id="title"
@@ -25,7 +25,7 @@
             </div>
 
             <div class="mb-6">
-                <label for="body" class="block text-sm font-medium text-gray-700 mb-1">Contenu</label>
+                <label for="body" class="block text-sm font-medium text-gray-700 mb-1">{{ __('Content') }}</label>
                 <textarea
                     id="body"
                     name="body"
@@ -39,8 +39,8 @@
             </div>
 
             <div class="flex items-center gap-3">
-                <x-button type="submit" variant="primary">Publier</x-button>
-                <a href="{{ route('posts.index') }}" class="text-sm text-gray-500 hover:underline">Annuler</a>
+                <x-button type="submit" variant="primary">{{ __('Publish') }}</x-button>
+                <a href="{{ route('posts.index') }}" class="text-sm text-gray-500 hover:underline">{{ __('Cancel') }}</a>
             </div>
 
         </form>
