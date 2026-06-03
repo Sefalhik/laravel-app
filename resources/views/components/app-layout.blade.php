@@ -51,6 +51,9 @@
                     <a href="{{ route('dashboard') }}" class="text-sm theme-muted hover:text-indigo-600">{{ __('Dashboard') }}</a>
                     <a href="{{ route('posts.index') }}" class="text-sm theme-muted hover:text-indigo-600">{{ __('Posts') }}</a>
                     <a href="{{ route('preferences.index') }}" class="text-sm theme-muted hover:text-indigo-600">{{ __('Preferences') }}</a>
+                    @role('admin')
+                        <a href="{{ route('newsletters.index') }}" class="text-sm theme-muted hover:text-indigo-600">{{ __('Newsletters') }}</a>
+                    @endrole
                 @endauth
             </div>
 
