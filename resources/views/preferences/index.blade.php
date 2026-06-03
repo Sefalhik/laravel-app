@@ -5,7 +5,7 @@
     </x-slot:header>
 
     @if(session('success'))
-        <x-alert type="success" :dismissible="true" class="mb-6">
+        <x-alert id="flash-alert" type="success" :dismissible="true" class="mb-6">
             {{ session('success') }}
         </x-alert>
     @endif
@@ -24,6 +24,9 @@
                     <option value="light" @selected($theme === 'light')>{{ __('Light') }}</option>
                     <option value="dark"  @selected($theme === 'dark')>{{ __('Dark') }}</option>
                 </select>
+                @error('theme')
+                    <p class="text-red-600 text-sm mt-1">{{ $message }}</p>
+                @enderror
             </div>
 
             <div class="mb-6">
@@ -36,6 +39,9 @@
                     <option value="fr" @selected($locale === 'fr')>Français</option>
                     <option value="en" @selected($locale === 'en')>English</option>
                 </select>
+                @error('locale')
+                    <p class="text-red-600 text-sm mt-1">{{ $message }}</p>
+                @enderror
             </div>
 
             <x-button type="submit" variant="primary">{{ __('Save') }}</x-button>

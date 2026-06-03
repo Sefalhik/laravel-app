@@ -8,7 +8,7 @@
     </x-slot:header>
 
     @if(session('success'))
-        <x-alert type="success" :dismissible="true" class="mb-6">
+        <x-alert id="flash-alert" type="success" :dismissible="true" class="mb-6">
             {{ session('success') }}
         </x-alert>
     @endif

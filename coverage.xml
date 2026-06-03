@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1780496395">
+  <project timestamp="1780496395" name="Clover Coverage">
+    <package name="App\Concerns">
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Concerns/HasOverdueScope.php">
+        <class name="App\Concerns\HasOverdueScope" namespace="App\Concerns">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        </class>
+        <line num="9" type="method" name="scopeOverdue" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <line num="12" type="stmt" count="1"/>
+        <line num="13" type="stmt" count="1"/>
+        <metrics loc="16" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <package name="App\Http\Middleware">
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Http/Middleware/SetLocale.php">
+        <class name="App\Http\Middleware\SetLocale" namespace="App\Http\Middleware">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="16" type="method" name="handle" visibility="public" complexity="1" crap="1" count="31"/>
+        <line num="18" type="stmt" count="31"/>
+        <line num="20" type="stmt" count="31"/>
+        <metrics loc="23" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+      </file>
+    </package>
+    <package name="App\Http\Requests">
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Http/Requests/StoreNewsletterRequest.php">
+        <class name="App\Http\Requests\StoreNewsletterRequest" namespace="App\Http\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+        </class>
+        <line num="10" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="12" type="stmt" count="4"/>
+        <line num="18" type="method" name="rules" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="20" type="stmt" count="4"/>
+        <line num="21" type="stmt" count="4"/>
+        <line num="22" type="stmt" count="4"/>
+        <line num="23" type="stmt" count="4"/>
+        <metrics loc="26" ncloc="23" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </file>
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Http/Requests/StorePostRequest.php">
+        <class name="App\Http\Requests\StorePostRequest" namespace="App\Http\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+        </class>
+        <line num="11" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="13" type="stmt" count="1"/>
+        <line num="19" type="method" name="rules" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <metrics loc="27" ncloc="24" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </file>
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Http/Requests/StorePreferenceRequest.php">
+        <class name="App\Http\Requests\StorePreferenceRequest" namespace="App\Http\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+        </class>
+        <line num="13" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="21" type="method" name="rules" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="23" type="stmt" count="3"/>
+        <line num="24" type="stmt" count="3"/>
+        <line num="25" type="stmt" count="3"/>
+        <line num="26" type="stmt" count="3"/>
+        <metrics loc="29" ncloc="23" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </file>
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Http/Requests/StoreTaskRequest.php">
+        <class name="App\Http\Requests\StoreTaskRequest" namespace="App\Http\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+        </class>
+        <line num="11" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="13" type="stmt" count="4"/>
+        <line num="19" type="method" name="rules" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="21" type="stmt" count="4"/>
+        <line num="22" type="stmt" count="4"/>
+        <line num="23" type="stmt" count="4"/>
+        <line num="24" type="stmt" count="4"/>
+        <line num="25" type="stmt" count="4"/>
+        <line num="26" type="stmt" count="4"/>
+        <metrics loc="29" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+      </file>
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Http/Requests/UpdatePostRequest.php">
+        <class name="App\Http\Requests\UpdatePostRequest" namespace="App\Http\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+        </class>
+        <line num="11" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="13" type="stmt" count="3"/>
+        <line num="19" type="method" name="rules" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="24" type="stmt" count="2"/>
+        <metrics loc="27" ncloc="24" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="7" coveredelements="7"/>
+      </file>
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Http/Requests/UpdateTaskRequest.php">
+        <class name="App\Http\Requests\UpdateTaskRequest" namespace="App\Http\Requests">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+        </class>
+        <line num="11" type="method" name="authorize" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="13" type="stmt" count="7"/>
+        <line num="19" type="method" name="rules" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="21" type="stmt" count="7"/>
+        <line num="22" type="stmt" count="7"/>
+        <line num="23" type="stmt" count="7"/>
+        <line num="24" type="stmt" count="7"/>
+        <line num="25" type="stmt" count="7"/>
+        <line num="26" type="stmt" count="7"/>
+        <metrics loc="29" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="7" elements="9" coveredelements="9"/>
+      </file>
+    </package>
+    <package name="App\Http\Resources">
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Http/Resources/TaskResource.php">
+        <class name="App\Http\Resources\TaskResource" namespace="App\Http\Resources">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="15" type="method" name="toArray" visibility="public" complexity="1" crap="1" count="10"/>
+        <line num="17" type="stmt" count="10"/>
+        <metrics loc="20" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <package name="App\Jobs">
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Jobs/SendNewsletterJob.php">
+        <class name="App\Jobs\SendNewsletterJob" namespace="App\Jobs">
+          <metrics complexity="4" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+        </class>
+        <line num="20" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="23" type="stmt" count="6"/>
+        <line num="25" type="method" name="handle" visibility="public" complexity="3" crap="3" count="4"/>
+        <line num="27" type="stmt" count="4"/>
+        <line num="29" type="stmt" count="4"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="3"/>
+        <line num="35" type="stmt" count="3"/>
+        <line num="37" type="stmt" count="3"/>
+        <line num="38" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="3"/>
+        <line num="43" type="stmt" count="3"/>
+        <metrics loc="46" ncloc="46" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="12" coveredelements="12"/>
+      </file>
+    </package>
+    <package name="App\Mail">
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Mail/NewsletterMail.php">
+        <class name="App\Mail\NewsletterMail" namespace="App\Mail">
+          <metrics complexity="4" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="6" elements="11" coveredelements="9"/>
+        </class>
+        <line num="16" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="18" type="method" name="envelope" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="20" type="stmt" count="1"/>
+        <line num="23" type="method" name="content" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="31" type="method" name="attachments" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <metrics loc="36" ncloc="36" classes="1" methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="7" coveredstatements="6" elements="11" coveredelements="9"/>
+      </file>
+    </package>
+    <package name="App\Notifications">
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Notifications/NewsletterSentNotification.php">
+        <class name="App\Notifications\NewsletterSentNotification" namespace="App\Notifications">
+          <metrics complexity="4" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="9" coveredelements="9"/>
+        </class>
+        <line num="14" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="17" type="stmt" count="3"/>
+        <line num="19" type="method" name="via" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="24" type="method" name="toMail" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <metrics loc="38" ncloc="37" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="9" coveredelements="9"/>
+      </file>
+    </package>
+    <package name="App\Policies">
+      <file name="/home/sefalhik/Workspace/laravel-app/app/Policies/PostPolicy.php">
+        <class name="App\Policies\PostPolicy" namespace="App\Policies">
+          <metrics complexity="9" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
+        </class>
+        <line num="29" type="method" name="create" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="37" type="method" name="update" visibility="public" complexity="2" crap="2" count="6"/>
+        <line num="39" type="stmt" count="6"/>
+        <line num="45" type="method" name="delete" visibility="public" complexity="2" crap="2" count="3"/>
+        <line num="47" type="stmt" count="3"/>
+        <metrics loc="65" ncloc="46" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
+      </file>
+    </package>
+    <metrics files="13" loc="411" ncloc="360" classes="13" methods="27" coveredmethods="26" conditionals="0" coveredconditionals="0" statements="66" coveredstatements="65" elements="93" coveredelements="91"/>
+  </project>
+</coverage>

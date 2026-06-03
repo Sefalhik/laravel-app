@@ -28,6 +28,7 @@ class NewsletterMail extends Mailable
         );
     }
 
+    /** @codeCoverageIgnore — stub artisan, aucune pièce jointe dans cette newsletter */
     public function attachments(): array
     {
         return [];

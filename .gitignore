@@ -1,4 +1,6 @@
 *.log
+.env.dusk.*
+/database/dusk.sqlite
 .DS_Store
 .env
 .env.backup

@@ -29,6 +29,7 @@ class NewsletterSentNotification extends Notification
             ->line($this->count . ' abonné(s) ont été notifiés.');
     }
 
+    /** @codeCoverageIgnore — artisan stub, retourne toujours [] car on n'utilise pas le canal database */
     public function toArray(object $notifiable): array
     {
         return [];
